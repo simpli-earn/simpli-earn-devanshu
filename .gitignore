@@ -22,3 +22,10 @@ RAG/models/
 frontend/apps/**/.next/
 temp_processing/
 api_keys.txt
+
+# pipeline/ local artifacts
+pipeline/.venv/
+pipeline/.blobs/
+**/*.egg-info/
+.pytest_cache/
+.ruff_cache/
